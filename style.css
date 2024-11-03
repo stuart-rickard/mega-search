@@ -35,8 +35,15 @@ p {
   box-sizing: border-box;
 }
 
+#input-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #chat-input {
-  width: 70%;
+  width: 75%;
   padding: 10px;
 }
 
